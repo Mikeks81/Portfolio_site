@@ -5,12 +5,12 @@ body,html {
 
 body {
 	background-image: url("Images/NewYork.jpg");
-	background-size: 100% ;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
 #layer {
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.9);
 	position:absolute;
 	top:0;
 	left:0;
@@ -62,7 +62,7 @@ nav a:hover {
 	width: 350px;
 	height: 200px;
 	margin: 25px;
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 }
 
 #frames {
