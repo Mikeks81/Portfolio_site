@@ -1,0 +1,52 @@
+body,html {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: url("Images/NewYork.jpg");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+
+#layer {
+	background-color: rgba(255, 255, 255, 0.7);
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
+
+header {
+	width: 100%;	
+}
+
+header img {
+	width: 70px;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	float: right;
+	padding: 10px 10px;
+	margin: 20px 20px 0 0;
+}
+
+nav a {
+	font-family: "Impact";
+	color: black;
+}
+
+
+
+
+footer {
+	clear: both;
+}
