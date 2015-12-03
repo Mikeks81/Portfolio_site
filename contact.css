@@ -88,16 +88,45 @@ nav a {
 }
 
 nav a:hover {
-	color: rgba(230, 113, 0,0.9)
+	color: rgba(230, 113, 0,0.9);
 }
 
 /*====================form=========================*/
 
 #form {
-	width: 400px;
-	margin-top: 300px;
+	width: 500px;
+	margin: 200px auto;
+	clear: both;
 }
 
-form {
-	margin: 0 auto;
+form input { 
+	width: 75%;
+	height: 40px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 40px;
+	border-radius: 5px;
 }
+
+#message {
+	height: 140px;
+}
+
+input[value] {
+	font-family: "Impact";
+	font-size: 30px;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+input[value]:hover {
+	color: rgba(230, 113, 0,0.9);
+
+}
+
+#submit {
+	background-color: rgba(230, 113, 0,0.9);
+	color: rgba(255,255,255,0.9);
+}
+
+
