@@ -23,7 +23,7 @@ body {
 	height: 100px;
 	text-align: center;
 	margin: 0% auto;
-	margin-top: 23%;
+	margin-top: 21%;
 	border-radius:5px;
 	/*background-color: rgba(0,0,0,0.1);*/
 	/*border: rgba(230, 113, 0,0.7) 8px solid;*/
@@ -31,8 +31,10 @@ body {
 
 h1 {
 	padding-bottom: 5px;
-	color: rgba(0,0,0,0.6);
-	font-size: 70px;
+	color: rgba(0,0,0,0.2);
+	font-size: 100px;
+	font-family: "Impact";
+	text-decoration: underline;
 }
 
 #enter_button {
@@ -42,12 +44,20 @@ h1 {
 	margin: 0 auto;
 	margin-top: 1%;
 	border-radius:5px;
-	border:	rgba(230, 113, 0,0.7) 2px solid;
+	/*border:	rgba(230, 113, 0,0.7) 2px solid;*/
 }
 
 a {
-	color: rgba(0,0,0,0.7);
+	color: rgba(0,0,0,0.2);
+	font-size: 40px;
+	font-family: "Impact";
+	text-decoration: none;
 }
+
+a:hover {
+	color: rgba(230,113,0,0.7);
+}
+
 footer {
 	/*margin-bottom: 0;*/
 }
