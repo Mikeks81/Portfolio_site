@@ -23,15 +23,16 @@ body {
 	height: 100px;
 	text-align: center;
 	margin: 0% auto;
-	margin-top: 18%;
+	margin-top: 23%;
 	border-radius:5px;
-	border: black 5px solid;
+	/*background-color: rgba(0,0,0,0.1);*/
+	/*border: rgba(230, 113, 0,0.7) 8px solid;*/
 }
 
 h1 {
 	padding-bottom: 5px;
-	color: black;
-	font-size: 46px;
+	color: rgba(0,0,0,0.6);
+	font-size: 70px;
 }
 
 #enter_button {
@@ -39,13 +40,13 @@ h1 {
 	height: 20px;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 5%;
+	margin-top: 1%;
 	border-radius:5px;
-	border:	black 2px solid;
+	border:	rgba(230, 113, 0,0.7) 2px solid;
 }
 
 a {
-	color: black;
+	color: rgba(0,0,0,0.7);
 }
 footer {
 	/*margin-bottom: 0;*/
