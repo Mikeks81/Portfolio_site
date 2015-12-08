@@ -101,11 +101,20 @@ nav a:hover {
 
 /*====================form=========================*/
 
+h1 {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 110px;
+	font-family: "Impact";
+	font-size: 40px;
+	color: rgba(0,0,0,0.1);
+}
 
 #form {
 	width: 500px;
 	margin:0 auto;
-	margin-top: 200px;
+	margin-top: 120px;
 	/*margin-bottom: ;*/
 	clear: both;
 }
