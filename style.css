@@ -176,10 +176,9 @@ nav a:hover {
 }
 
 #gallery_frames {
-	width: 950px;
+	width: 908px;
 	margin: auto;
 	margin-top: 152px;
-	padding-left: 55px;
 	/*border: 1px solid blue;*/
 
 }
@@ -188,8 +187,13 @@ nav a:hover {
 	width: 300px;
 	height: 200px;
 	margin: 0 auto;
-	position: relative;
+	transition: transform 0.25s ease-in;
 	/*margin: 25px;*/
+}
+
+#gallery_frames img:hover {
+	transform: scale(1.02);
+	box-shadow: 0 0 10px #888;
 }
 
 

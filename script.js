@@ -1,25 +1,27 @@
 $(document).ready(
 	function(){
-		// $("h1").fadeOut(6000);
+		// Landing page animation
+
 		$("#hello").hide();
 		$("#hello").fadeIn(3000);
 
 		$("#enter").hide();
 		$("#enter").fadeIn(3000);
 
-		
-		$(".image").mouseenter(
-			function(){
-				$(this, "img").css("z-index","99");
-				$(this, "img").animate({width: "+=20px",
-					height: "+=20px"},'slow');
-			});
-		$(".image").mouseleave(
-			function(){
-				$(this, "img").animate({width: "-=20px",
-					height: "-=20px"},'slow');
-				$(this, "img").css("z-index","0");
-			});		
+		// ###### Gallery Page #########
+
+		// $(".image").mouseenter( //on mouseenter of image the image zooms 5px
+		// 	function(){
+		// 		$(this, "img").animate({width: "+=5px",
+		// 			height: "+=5px"});
+		// 	});
+		// $(".image").mouseleave( //on mouseleave of image the image returns to normal
+		// 	function(){
+		// 		$(this, "img").animate({width: "-=5px",
+		// 			height: "-=5px"});
+		// 	});
+
+		//########### Contact Page ###########		
 });		
 
 
