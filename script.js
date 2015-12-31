@@ -8,13 +8,20 @@ $(document).ready(
 		$("#enter").fadeIn(3000);
 
 		
+		$(".image").mouseenter(
+			function(){
+				$(this, "img").css("z-index","99");
+				$(this, "img").animate({width: "+=20px",
+					height: "+=20px"},'slow');
+			});
+		$(".image").mouseleave(
+			function(){
+				$(this, "img").animate({width: "-=20px",
+					height: "-=20px"},'slow');
+				$(this, "img").css("z-index","0");
+			});		
+});		
 
-		// $("#enter").hide();
-		// $("#enter").fadeIn(2000);	
-});
 
 
-// function submit(){
-// 	alert("Thank you.")
-// }
 

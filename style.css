@@ -176,9 +176,10 @@ nav a:hover {
 }
 
 #gallery_frames {
-	width: 908px;
+	width: 950px;
 	margin: auto;
 	margin-top: 152px;
+	padding-left: 55px;
 	/*border: 1px solid blue;*/
 
 }
@@ -187,6 +188,7 @@ nav a:hover {
 	width: 300px;
 	height: 200px;
 	margin: 0 auto;
+	position: relative;
 	/*margin: 25px;*/
 }
 
