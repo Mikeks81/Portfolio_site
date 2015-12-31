@@ -3,13 +3,17 @@ body,html {
 	padding:0;
 }
 
+/*##### Background image for everypage ######*/
+
 body {
 	background-image: url("Images/NewYork.jpg");
 	background-size: 100% ;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
+/*##### Opacity overlay on landing page ########*/
 
-#layer {
+#landing_layer {
 	background-color: rgba(255, 255, 255, 0.7);
 	position:absolute;
 	top:0;
@@ -18,7 +22,31 @@ body {
 	height:100%;
 }
 
-#content {
+/*########### Opacity overlay on every other page #####*/
+
+#layer {
+	background-color: rgba(255, 255, 255, 0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	/*height:100%;*/
+}
+
+/*################ OPACTIY LAYER ON CONTACT PAGE #######*/
+
+#contact_layer {
+	background-color: rgba(255, 255, 255, 0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+}
+
+/*############# Landing Page #######################*/
+
+#landing_content {
 	width: 400px;
 	height: 100px;
 	text-align: center;
@@ -29,10 +57,12 @@ body {
 	/*border: rgba(230, 113, 0,0.7) 8px solid;*/
 }
 
-h1 {
+#hello {
 	padding-bottom: 5px;
 	color: rgba(0,0,0,0.2);
 	font-size: 100px;
+	/*margin-top: 247px;
+	margin-left: 536px;*/
 	font-family: "Impact";
 	text-decoration: underline;
 }
@@ -47,17 +77,185 @@ h1 {
 	/*border:	rgba(230, 113, 0,0.7) 2px solid;*/
 }
 
-a {
+#enter_button a {
 	color: rgba(0,0,0,0.2);
 	font-family: "Impact";
 	font-size: 50px;
 	text-decoration: none;
 }
 
-a:hover {
+#enter_button a:hover {
 	color: rgba(230,113,0,0.7);
 }
 
-footer {
-	/*margin-bottom: 0;*/
+/*############# header on every page ##################*/
+
+#header_layer {
+	width: 270px;
+	height: 34px;
+	margin-top: 72px;
+	border-radius: 0 0 57px 0;
+	background-color: rgba(255, 255, 255, 0.9)
 }
+
+header {
+	width: 100%;
+	height: 71px;
+	top:0;	
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid black;	
+}
+
+header img {
+	width: 70px;
+	margin-top: 37px;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	float: left;
+	position: fixed;
+}
+
+/*############## heder(social media) on every page #########*/
+#social_media {
+	background: solid 1px black;
+}
+
+
+#social_media img {
+	width: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+#social_media ul {
+	list-style: none;
+	margin-left: 30px
+}
+
+#social_media li {
+	float: left;
+	margin: 63px 5px 0px 3px;
+	padding: 0 10px 0 10px;
+
+}
+
+/*############ header(navi) on every page ##################*/
+
+nav ul {
+	list-style: none;
+	/*position: fixed;*/
+	margin-right: 30px
+}
+
+nav li {
+	width: 110px;
+	float:right;
+	padding: 0px 10px;
+}
+
+nav a {
+	font-family: "Impact";
+	font-size: 40px;
+	color: rgba(0,0,0,0.1);
+	
+}
+
+nav a:hover {
+	color: rgba(230, 113, 0,0.9)
+}
+
+/*################## Gallery Page Content #########*/
+
+/*=================content==================*/
+
+#content_gallery {
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+
+#gallery_frames {
+	width: 908px;
+	margin: auto;
+	margin-top: 152px;
+	/*border: 1px solid blue;*/
+
+}
+
+#gallery_frames img {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	/*margin: 25px;*/
+}
+
+
+/*=================footer==================*/
+
+
+#image_footer {
+	width: 100%;
+	clear: both;
+}
+
+/*############### ABOUT PAGE CONTENT ############*/
+
+#about_content {
+	width: 908px;
+	margin: 152px auto;
+}
+
+/*############### CONTACT FORM CONTENT ##########*/
+
+
+
+h1 {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	margin-top: 110px;
+	font-family: "Impact";
+	font-size: 40px;
+	color: rgba(0,0,0,0.1);
+}
+
+#form {
+	width: 500px;
+	margin:0 auto;
+	margin-top: 120px;
+	/*margin-bottom: ;*/
+	clear: both;
+}
+
+form input { 
+	width: 75%;
+	height: 40px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	margin-left: 40px;
+	border-radius: 5px;
+}
+
+#message {
+	height: 140px;
+}
+
+input[value] {
+	font-family: "Impact";
+	font-size: 30px;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+input[value]:hover {
+	color: rgba(230, 113, 0,0.9);
+
+}
+
+#submit {
+	background-color: rgba(230, 113, 0,0.9);
+	color: rgba(255,255,255,0.9);
+}
+
+
