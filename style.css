@@ -187,12 +187,12 @@ nav a:hover {
 	width: 300px;
 	height: 200px;
 	margin: 0 auto;
-	transition: transform 0.25s ease-in;
+	transition: transform 0.1s ease-in;
 	/*margin: 25px;*/
 }
 
 #gallery_frames img:hover {
-	transform: scale(1.02);
+	transform: scale(1.035);
 	box-shadow: 0 0 10px #888;
 }
 
@@ -203,6 +203,31 @@ nav a:hover {
 #image_footer {
 	width: 100%;
 	clear: both;
+}
+
+/*==================LIGHTBOX===================*/
+
+#outer_lightbox {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+	z-index: 999997;
+	display: none;
+}
+
+#inner_lightbox {
+	position: relative;
+	width: 800px;
+	margin-left: 18%;
+	margin-top: 6%;
+	display: none;
+}
+
+#lb_image {
+	width: 800px;
+	position: fixed;
+	display: none;
 }
 
 /*############### ABOUT PAGE CONTENT ############*/
