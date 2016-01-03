@@ -235,10 +235,12 @@ nav a:hover {
 	left: 0;
 	width: 40px;
     height: 500px;
-    margin-left: 167px;
+    text-align: center;
+    margin-left: 166px;
     margin-top: 15px;
-    background-color: yellow;
-
+    padding-top: 320px;
+    font-size: x-large;
+    transform: scaleY(2);
 }
 
 #f_arrow{
@@ -246,9 +248,29 @@ nav a:hover {
 	right: 0;
     width: 40px;
     height: 500px;
+    text-align: center;
     margin-right: 190px;
-    background-color: yellow;
-    margin-top: 15px
+    margin-top: 15px;
+    font-size: x-large;
+    padding-top: 320px;
+    transform: scaleY(2);
+}
+
+#close_lightbox {
+	width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    margin-top: 14px;
+    margin-right: 257px;
+    font-family: Arial;
+    font-size: 25px;
+    color: rgba(0,0,0,0.1);
+}
+
+#close_lightbox:hover {
+	color: white;
 }
 
 /*############### ABOUT PAGE CONTENT ############*/
